@@ -1,0 +1,132 @@
+/* Video 17,18
+    Text Color
+        - background-color
+        - color
+
+    Text Shadow   
+        --> Syntax: text-shadow: H-shadow V-shadow Blur Color
+        H-shadow: Horizontal shadow, V-shadow: Vertical shadow
+
+    Text Alignment 
+    - Alignment
+    - Direction
+    - Vertical Alignment
+*/
+body{
+    font-size: 25px;
+}
+.text{
+    background-color: bisque;
+    color: rgb(95, 28, 250);
+    text-shadow: 2px 2px 1px red;
+    text-align: center;
+    direction: ltr; /* When I write Arabic statement, I should make the direction: rtl  */
+}
+.verticalAlign{
+        vertical-align: middle;
+}
+/* Video 19
+    Text decoration
+    Text transformation
+*/
+.textDecor{
+    background-color: antiquewhite;
+    text-decoration:underline;
+}
+.textDecor1{
+    background-color: bisque;
+    text-decoration: line-through;
+}
+.textDecoration{
+    background-color: red;
+    color: white;
+    padding: 5px 15px;
+    display: inline-block;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.textTransfom{
+    background-color: rgb(208, 181, 149);
+    text-transform: capitalize; /* If I want all words are captial, choose text-transform: uppercase */
+}
+
+.textSpace{
+    background-color: bisque;
+    letter-spacing: 5px;  
+    /*letter-spacing: sets the horizontal spacing behavior between text characters. 
+    Positive values: causes characters to spread farther apart, while negative values: bring characters closer together.*/
+    
+    text-indent: 150px; /* text-indent: sets the length of empty space that is put before lines of text in a block.*/
+    word-spacing: 10px; /* word-spacing: sets the length of space between words and between tags.*/
+
+}
+.lineHeight{
+    line-height: 1.6; /*line-height: sets the height of a line box and used to set the distance between lines of text.*/
+}
+
+.textOverflow {
+    background-color: #ddd;
+    padding: 10px;
+    font-size: 20px;
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.textOverflow:hover {
+    overflow: visible;
+}
+
+/*Assigment 1   done*/
+.assignment1{
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 0 orangered, 4px 4px 0 rgba(0, 153, 255, 0.846),  6px 6px 0 rgba(195, 0, 255, 0.776);
+}
+
+/*Assigment 2   done */
+.one, .two, .three{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.one{text-transform: uppercase;}
+.two{text-transform: capitalize;}
+.three{text-transform: lowercase;}
+
+/*Assigment 3    done */
+.assignment3 , .assignment33 , .assignment333{
+    background-color: rgba(43, 101, 226, 0.184);
+    width: 400px;
+    padding: 20px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    word-break: break-all;
+}
+.assignment33{
+    white-space: nowrap;
+    overflow: hidden;
+}
+.assignment333{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/*Assigment 4   done*/
+.assignment4{
+    background-color: rgb(30, 159, 142);
+    color: white;
+    width: 200px;
+    height: 50px;
+    padding: 45px;
+    border-bottom: 20px solid rgb(12, 87, 77);;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
